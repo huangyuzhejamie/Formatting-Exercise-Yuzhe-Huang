@@ -54,8 +54,8 @@ for(i in 1:length(class)){                          ## calculate the mean city a
 }
 
 ##Improvement: use tapply function to calculatethe mean city and highway mileage for each class of car.
-cty_mean<-tapply(mpg$cty,mpg$class,mean)
-hwy_mean<-tapply(mpg$hwy,mpg$class,mean)
+#cty_mean<-tapply(mpg$cty,mpg$class,mean)
+#hwy_mean<-tapply(mpg$hwy,mpg$class,mean)
 
 
 cty_mean <- round(cty_mean, 2)                      ## round the results to 2 decimal pla
